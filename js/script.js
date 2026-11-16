@@ -144,7 +144,7 @@ const projectDetails = {
             "SEO and social sharing metadata"
         ],
         technologies: ["HTML5", "CSS3", "JavaScript", "EmailJS"],
-        github: null
+        github: "https://github.com/venkatsainadh-thottempudi/sainadh-portfolio"
     },
 
     "ai-reviewer": {
@@ -161,19 +161,21 @@ const projectDetails = {
         github: "https://github.com/venkatsainadh-thottempudi/ai_code_reviewer"
     },
 
+    
     "secure-transfer": {
         label: "Academic Team Project",
         title: "Secure File Transfer System",
-        description: "A team-developed application for secure file sharing using AES and RSA encryption. My contribution focused on frontend development using HTML, CSS and JavaScript.",
+        description: "A team-developed application designed for secure file sharing using AES and RSA encryption. My primary contribution was developing the frontend interface using HTML, CSS and JavaScript.",
         features: [
-            "User interface for secure file sharing",
-            "Frontend development using HTML, CSS and JavaScript",
-            "Integration with the Python Flask application",
-            "Secure file-sharing workflow"
+            "Frontend interface for file-sharing operations",
+            "User interface development using HTML, CSS and JavaScript",
+            "Collaboration with the team on the file-sharing application",
+            "Team project incorporating AES and RSA encryption"
         ],
         technologies: ["HTML", "CSS", "JavaScript", "Python Flask", "MySQL", "AES / RSA"],
         github: null
     }
+
 };
 
 function openProjectModal(projectId) {

@@ -1866,3 +1866,27 @@ footer {
 .menu-toggle.open span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+
+/* ===== ADDITIONAL SKILLS ===== */
+.additional-skills {
+    max-width: 850px;
+    margin: 45px auto 0;
+    text-align: center;
+}
+
+.additional-skills h3 {
+    color: var(--text);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.additional-skills .tech-stack {
+    justify-content: center;
+    gap: 12px;
+    margin: 0;
+}
+
+.additional-skills .tech-stack span {
+    padding: 10px 16px;
+}
