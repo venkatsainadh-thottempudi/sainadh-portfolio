@@ -85,7 +85,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 120px 10%;
+    padding: 150px 10% 120px;
     position: relative;
     overflow: hidden;
     background:
@@ -1664,7 +1664,7 @@ footer {
 
     .hero {
         overflow-x: hidden;
-        padding: 100px 16px 50px;
+        padding: 160px 16px 50px;
     }
 
     .hero-container {
