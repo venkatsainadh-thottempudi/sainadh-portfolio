@@ -270,6 +270,10 @@ footer {
 
 /* Responsive Skills */
 @media (max-width: 768px) {
+    .header .navbar {
+        padding: 18px 5%;
+        min-height: 80px;
+    }
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
