@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore the portfolio of Thottempudi Venkat Sainadh, a Java Developer and Software Engineer. Discover his technical skills, projects, education, and experience.">
+
+    <meta name="keywords" content="Sainadh, Java Developer, Software Engineer, Full Stack Developer, HTML, CSS, JavaScript, SQL, Portfolio">
+
+    <meta name="author" content="Thottempudi Venkat Sainadh">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sainadh | Java Developer & Software Engineer">
+    <meta property="og:description" content="Explore my portfolio, technical skills, projects and journey as a  software developer.">
+    <meta property="og:url" content="https://your-portfolio-url.com">
+    <meta property="og:image" content="https://your-portfolio-url.com/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Browser theme color -->
+    <meta name="theme-color" content="#070b14">
+
+    <title>Sainadh | Software Developer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+
+        <div class="loader-content">
+
+            <div class="loader-ring">
+                <div class="loader-inner">
+                    <span>VS</span>
+                </div>
+            </div>
+
+            <h2>SAINADH<span>.</span></h2>
+
+            <p>INITIALIZING PORTFOLIO</p>
+
+            <div class="loader-progress">
+                <div class="loader-progress-bar" id="loaderProgress"></div>
+            </div>
+
+            <div class="loader-info">
+                <span>LOADING EXPERIENCE</span>
+                <span id="loaderPercentage">0%</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+   
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">SAINADH<span>.DEV</span></a>
+
+            <!-- Hamburger Button -->
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <main>
+        
+        <section id="home" class="hero">
+
+            <div class="hero-container">
+
+                <!-- LEFT SIDE -->
+                <div class="hero-content">
+
+                    <p class="intro">HELLO, WORLD! I'M</p>
+
+                    <h1>
+                        Thottempudi
+                        <span>Venkat Sainadh</span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        I'm a <span id="typingText"></span><span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Passionate about building applications,
+                        exploring technology and solving problems
+                        through code.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects">Explore Projects</a>
+
+                        <a href="#contact">Contact Me</a>
+
+                        <a href="./assets/resume.pdf"
+                            class="hero-btn resume-btn"
+                            download="Thottempudi_Venkat_Sainadh_Resume.pdf">
+                            ⬇ Download Resume
+                        </a>
+
+                    </div>
+
+                    <!-- SOCIAL LINKS -->
+                    <div class="hero-socials">
+
+                        <span>Connect with me:</span>
+
+                        <a href="https://github.com/venkatsainadh-thottempudi"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/thottempudi-venkat-sainadh-dev/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn">
+                            LinkedIn
+                        </a>
+
+                        <a href="mailto:sainadh.thottempudi@gmail.com"
+                            aria-label="Email">
+                            Email
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="hero-visual">
+
+                <div class="hologram-glow"></div>
+
+                    <div class="hologram-sphere">
+                        <div class="sphere-content">
+                            <span class="sphere-code">&lt;/&gt;</span>
+                            <span class="sphere-label">CODE • CREATE • INNOVATE</span>
+                        </div>
+                    </div>
+                    <!-- FLOATING TECHNOLOGY BADGES -->
+
+                    <div class="tech-orbit-icon icon-java">Java</div>
+                    <div class="tech-orbit-icon icon-github">GitHub</div>
+                    <div class="tech-orbit-icon icon-react">React</div>
+                    <div class="tech-orbit-icon icon-js">JS</div>
+                    <div class="tech-orbit-icon icon-html">HTML5</div>
+                    <div class="tech-orbit-icon icon-css">CSS3</div>
+                    <div class="tech-orbit-icon icon-python">Python</div>
+                    <div class="tech-orbit-icon icon-sql">SQL</div>
+                    <div class="tech-orbit-icon icon-mysql">MySQL</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Future sections -->
+
+        <section id="about" class="about section">
+
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-content">
+                    <h3>Building Ideas Into Reality</h3>
+
+                    <p>
+                        I'm Thottempudi Venkat Sainadh, a Computer
+                        Science and Engineering graduate passionate
+                        about software development and technology.
+                    </p>
+
+                    <p>
+                        I enjoy learning programming, developing
+                        applications and solving problems through
+                        creative thinking. Currently, I'm strengthening
+                        my skills in Java, SQL and web development.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled software
+                        developer and contribute to meaningful
+                        real-world projects.
+                    </p>
+
+                    <a href="#contact" class="about-btn">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="about-info">
+
+                    <div class="info-card">
+                        <span>🎓</span>
+                        <div>
+                            <h4>Education</h4>
+                            <p>B.Tech – Computer Science</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span>💻</span>
+                        <div>
+                            <h4>Interest</h4>
+                            <p>Software Development</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span>📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span>🚀</span>
+                        <div>
+                            <h4>Current Focus</h4>
+                            <p>Java & Full Stack Development</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="section-heading">
+                <p>WHAT I KNOW</p>
+                <h2>My <span>Technical Skills</span></h2>
+                <p class="section-description">
+                    My current self-assessed technical skill levels.
+                </p>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 80">
+                        <span>80%</span>
+                    </div>
+                    <h3>Java</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 30">
+                        <span>30%</span>
+                    </div>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 100">
+                        <span>100%</span>
+                    </div>
+                    <h3>SQL</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 100">
+                        <span>100%</span>
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 100">
+                        <span>100%</span>
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-circle" style="--percentage: 90">
+                        <span>90%</span>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+
+            </div>
+        </section>
+
+       
+        <section id="projects" class="projects section">
+
+            <div class="section-heading">
+                <p>MY WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p class="section-description">
+                    Some projects I've worked on and contributed to.
+                </p>
+            </div>
+
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <span class="project-label">Personal Project</span>
+                    <h3>Personal Developer Portfolio</h3>
+
+                    <p>
+                        Designed and developed a responsive personal portfolio
+                        to showcase my technical skills, projects and professional
+                        journey with a modern dark-themed interface.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>EmailJS</span>
+                    </div>
+
+                    <button class="project-btn"
+                        type="button"
+                        onclick="openProjectModal('portfolio')">
+                        View Details ↗
+                    </button>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <span class="project-label">Python Project</span>
+                    <h3>AI Code Reviewer</h3>
+
+                    <p>
+                        A Python-based code analysis tool that evaluates
+                        code quality, docstring coverage, cyclomatic
+                        complexity and coding-style compliance.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>HTML</span>
+                    </div>
+
+                    <button class="project-btn"
+                        type="button"
+                        onclick="openProjectModal('ai-reviewer')">
+                        View Details ↗
+                    </button>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-icon">🔐</div>
+                    <span class="project-label">Academic Team Project</span>
+                    <h3>Secure File Transfer System</h3>
+
+                    <p>
+                        A team-developed application for secure file
+                        sharing using AES and RSA encryption.
+                        I contributed to frontend development using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python Flask</span>
+                        <span>MySQL</span>
+                        <span>AES / RSA</span>
+                    </div>
+
+                    <button class="project-btn"
+                        type="button"
+                        onclick="openProjectModal('secure-transfer')">
+                        View Details ↗
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Project Details Modal -->
+        <div class="project-modal" id="projectModal">
+
+            <div class="modal-content">
+
+                <button class="modal-close"
+                    type="button"
+                    onclick="closeProjectModal()">
+                    &times;
+                </button>
+
+                <span class="modal-label" id="modalLabel"></span>
+
+                <h2 id="modalTitle"></h2>
+
+                <p id="modalDescription"></p>
+
+                <h3>Key Features</h3>
+                <ul id="modalFeatures"></ul>
+
+                <h3>Technologies Used</h3>
+                <div class="tech-stack" id="modalTech"></div>
+
+                <a id="modalGithub"
+                    class="project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    View on GitHub ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <section id="education" class="education section">
+
+            <div class="section-heading">
+                <p>MY JOURNEY</p>
+                <h2>Education & <span>Certifications</span></h2>
+                <p class="section-description">
+                    My academic background and professional learning.
+                </p>
+            </div>
+
+            <div class="education-container">
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span>2022 – 2026</span>
+                            <h3>Bachelor of Technology</h3>
+                            <h4>Tirumala Institute of Technology and Sciences</h4>
+                            <p>Computer Science and Engineering</p>
+                            <p>CGPA: 7.6</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span>2020 – 2022</span>
+                            <h3>Intermediate – MPC</h3>
+                            <h4>Sri Chaitanya Junior College</h4>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span>2020</span>
+                            <h3>Secondary School Certificate</h3>
+                            <h4>Sri Srinivasa High School</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="certifications">
+                    <h3>My Certifications</h3>
+
+                    <div class="certificate-card">
+                        <span>🏅</span>
+                        <div>
+                            <h4>Full Stack Java Virtual Internship</h4>
+                            <p>SkillDzire · 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card">
+                        <span>🏅</span>
+                        <div>
+                            <h4>Web Development Virtual Internship</h4>
+                            <p>SkillDzire · 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card">
+                        <span>🏅</span>
+                        <div>
+                            <h4>Web Development Fundamentals</h4>
+                            <p>IBM SkillsBuild</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card">
+                        <span>🏅</span>
+                        <div>
+                            <h4>Database Management System</h4>
+                            <p>Infosys Springboard</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        
+        <section id="contact" class="contact section">
+
+            <div class="section-heading">
+                <p>GET IN TOUCH</p>
+                <h2>Let's <span>Connect</span></h2>
+                <p class="section-description">
+                    Have an opportunity or project in mind?
+                    I'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>
+                        I'm actively looking for entry-level software
+                        development opportunities. Feel free to connect!
+                    </p>
+
+                    <a href="mailto:sainadh.thottempudi@gmail.com">
+                        ✉ Email Me
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/thottempudi-venkat-sainadh-dev/"
+                        target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                    <a href="https://github.com/venkatsainadh-thottempudi"
+                        target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+
+                    <input type="text" id="name"
+                        placeholder="Your Name" required>
+
+                    <input type="email" id="email"
+                        placeholder="Your Email" required>
+
+                    <textarea id="message"
+                      placeholder="Your Message"
+                      rows="6" required>
+                    </textarea>
+
+                    <button type="submit">
+                        Send Message ↗
+                    </button>
+
+                    <p id="formStatus" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Thottempudi Venkat Sainadh. All rights reserved.</p>
+    </footer>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    
+
+</body>
+</html>
